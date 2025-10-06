@@ -32,6 +32,7 @@ arrayconstructor[0] = "Azhar";
 arrayconstructor[1] = "Mazhar";
 console.log(arrayconstructor[0]);
 console.log(arrayconstructor[1]);
-let filledArray = new Array(5).fill(0); // make array of size 5 and give default values of 0 
+let filledArray = new Array(5).fill(0); // make array of size 5 and give default values of 0
 console.log(filledArray);
-
+let ofArray = Array.of("Azhar", "Mazhar", "Khizer");
+console.log(ofArray);
