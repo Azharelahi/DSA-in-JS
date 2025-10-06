@@ -36,3 +36,5 @@ let filledArray = new Array(5).fill(0); // make array of size 5 and give default
 console.log(filledArray);
 let ofArray = Array.of("Azhar", "Mazhar", "Khizer");
 console.log(ofArray);
+let fromArray = Array.from("Azhar");
+console.log("From arrays is: ",fromArray);
