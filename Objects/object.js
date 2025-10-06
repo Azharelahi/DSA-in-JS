@@ -37,4 +37,6 @@ console.log(filledArray);
 let ofArray = Array.of("Azhar", "Mazhar", "Khizer");
 console.log(ofArray);
 let fromArray = Array.from("Azhar");
-console.log("From arrays is: ",fromArray);
+console.log("From arrays is: ", fromArray);
+let SparseArray = [4, , 6, 66, , , 6];
+console.log("Sprase Array is : ",SparseArray);
