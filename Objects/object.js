@@ -30,5 +30,8 @@ for (let i = 0; i < students.length; i++) {
 let arrayconstructor = new Array();
 arrayconstructor[0] = "Azhar";
 arrayconstructor[1] = "Mazhar";
-console.log(arrayconstructor[0])
-console.log(arrayconstructor[1])
+console.log(arrayconstructor[0]);
+console.log(arrayconstructor[1]);
+let filledArray = new Array(5).fill(0); // make array of size 5 and give default values of 0 
+console.log(filledArray);
+
