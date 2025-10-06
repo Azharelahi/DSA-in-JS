@@ -21,10 +21,14 @@ let students = [
   { name: "Noman Arif", Roll_no: 20, age: 24 },
 ];
 
-console.log(students);
 let user_name = "Ahsan Malik";
 for (let i = 0; i < students.length; i++) {
   if (students[i].name == user_name) {
     console.log(students[i]);
   }
 }
+let arrayconstructor = new Array();
+arrayconstructor[0] = "Azhar";
+arrayconstructor[1] = "Mazhar";
+console.log(arrayconstructor[0])
+console.log(arrayconstructor[1])
